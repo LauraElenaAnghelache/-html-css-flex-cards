@@ -12,6 +12,53 @@ body {
 h1 {
     color:#e53170;
     margin-bottom: 20px;
-     
+    text-align: center;
+    padding-top: 40px;
+
+}
+ul {
+    list-style: none;
+}
+main {
+    background-color: white;
+}
+h3 {
+    color: white;
+}
+/*layout*/
+.container {
+    width: 80%;
+    margin: auto;
+
+
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.item {
+    display: flex;
+    background-color: black;
+    width: 32%;
+    color: white;
+    
+}
+img {
+    width: 100%;
+}
+    
+
+.photos {
+    
+    
+    
+}
+.small {
+    color: white;
+}
+.email {
+    color: aqua;
 }
 
