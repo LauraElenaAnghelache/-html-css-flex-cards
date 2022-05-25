@@ -9,14 +9,19 @@ body {
     color: black;
     font-family: Fredoka;
     width: 80%;
+    line-height: 2;
+    
 }
 h1 {
     color:#e53170;
     margin-bottom: 20px;
     text-align: center;
     padding-top: 40px;
-
+}   
+.line {
+    text-align: center;
 }
+
 ul {
     list-style: none;
 }
@@ -31,28 +36,45 @@ h3 {
     width: 80%;
     margin: auto;
 
-
 }
 .flex-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+
     
+}
+.flex-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 .item {
     display: flex;
-    padding: 10px;
     text-align: center;
     background-color: black;
+    width: 32%;
+    box-shadow: 5px 5px 10px 2px #333333;
 
+    
 }
 img {
     width: 30%;
 }
 .text {
     color: white;
+    text-align: left;
+    padding: 10px;
+    
+    
 }
     
 
