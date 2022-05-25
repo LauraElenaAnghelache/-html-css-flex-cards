@@ -8,6 +8,7 @@ body {
     background-color: white;
     color: black;
     font-family: Fredoka;
+    width: 80%;
 }
 h1 {
     color:#e53170;
@@ -36,17 +37,22 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    flex-direction: row;
     
 }
+
 .item {
     display: flex;
+    padding: 10px;
+    text-align: center;
     background-color: black;
-    width: 32%;
-    color: white;
-    
+
 }
 img {
-    width: 100%;
+    width: 30%;
+}
+.text {
+    color: white;
 }
     
 
@@ -54,9 +60,6 @@ img {
     
     
     
-}
-.small {
-    color: white;
 }
 .email {
     color: aqua;
